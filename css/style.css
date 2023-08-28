@@ -32,9 +32,14 @@ body {
 header {
     display: flex;
     align-items: center;
-    border: 1px solid white;
     padding: 2rem 9%;
 }
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
 
 .logo {
     width: 50%;
