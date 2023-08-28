@@ -20,7 +20,7 @@
 }
 
 html {
-    /* font-size: 62.5%; */
+    font-size: 62.5%;
     overflow-x: hidden;
 }
 
@@ -38,17 +38,31 @@ header {
 
 .logo {
     width: 50%;
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+    cursor: default;
 
 }
 
 .menu {
     width: 50%;
-    border: 1px solid whitesmoke;
 }
 
 .menu ul {
     display: flex;
     justify-content: space-around;
+}
+
+.menu ul li a {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    transition: .3s;
+}
+
+.menu ul li a:hover,
+.menu ul li a.active {
+    color: var(--main-color);
 }
 
 footer {
